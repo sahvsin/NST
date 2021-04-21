@@ -1,0 +1,15 @@
+CREDITS
+
+--Credit to Gatys et al. for their research and paper on Neural Style Transfer, the model I recreate
+	link to paper - https://arxiv.org/abs/1508.06576
+
+--Credit to Jing et al. for their paper reviewing Gatys et al.'s research 
+	link to paper - https://arxiv.org/abs/1705.04058
+
+--Credit to Chatfield et al. for thier paper on Very Deep Convolutional Networks (specifically the VGG-VD I use)
+	link to paper - https://arxiv.org/abs/1409.1556
+
+--Credit to those at MatConvNet for providing weights (in a MATLAB file) pretrained on ImageNet for the VGG-VD-19 model I use
+	link to paper - https://www.vlfeat.org/matconvnet/pretrained/
+
+--Credits to all of the artists and photographers for all the images I'm using (don't know everyone's names)

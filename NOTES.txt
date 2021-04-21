@@ -1,0 +1,19 @@
+Works with GPU
+~5-6s for 150 epochs, VGG-19
+
+TensorFlow (GPU) - 2.4
+CUDA - 11.0
+cudNN8 - 8.04
+
+GPU - RTX 3080 (EVGA FTW3 Ultra)
+Driver - 460.27.04 
+PCI ID - 0000:01:00.0
+
+
+
+Numa Node -1 value warning -- https://stackoverflow.com/questions/44232898/memoryerror-in-tensorflow-and-successful-numa-node-read-from-sysfs-had-negativ
+Not creating XLA devices warning -- https://github.com/tensorflow/tensorflow/issues/44683
+fixing the weird outdated CUDA stack, ptxas fatal: value "sm-86" is not defined warning/issue -- https://github.com/tensorflow/tensorflow/issues/45590
+
+
+
