@@ -1,7 +1,7 @@
 # Neural Style Transfer
 My implementation of Neural Style Transfer (Gatys et al.) using TensorFlow and GPU Acceleration.
 
-![]("GIFs/NST.gif")
+![](./GIFs/NST.gif)
 
 Computes an image using the content of one image and the style of another based on reaseach conducted by [Gatys et al.](https://arxiv.org/abs/1508.06576).
 
