@@ -1,8 +1,13 @@
 # Neural Style Transfer
 My implementation of Neural Style Transfer (Gatys et al.) using TensorFlow and GPU Acceleration.
+<br><br>
 
 ![](./GIFs/NST.gif)
+<p align="center">
+  Recreate an image (left: Golden Gate Bridge) in the artistic style of another image (right: Beautiful Dance by Leonid Afremov) 
+</p>
 
+<br><br>
 Computes an image using the content of one image and the style of another based on reaseach conducted by [Gatys et al.](https://arxiv.org/abs/1508.06576).
 
 Starts by initializing an Nvidia GPU TensorFlow session using [CUDA](https://developer.nvidia.com/cuda-zone) to accelerate the deep learning. If no GPU is detected, it defaults to using the CPU.
@@ -17,4 +22,16 @@ Since earlier layers extract more concrete features, the content image is propag
 
 Finally, the base noisy image is propagated through the entire VGG-19 with the total cost and Adam Optimization for a number of iterations to produce a style transferred image.
 
-It's important to note that results vary wildly based on a lot of configurable model and optimization hyperparameters including content and style layers and weights
+It's important to note that results can vary wildly based on a lot of configurable model and optimization hyperparameters including content and style layers and weights.
+
+<br><br>
+## Examples
+
+#### Starry Night Over the Rhone by Vincent van Gogh
+<img class="nst__img" src="./Examples/GoldenGateBridge.jpg" height="300" width="300" type="img/jpg"> <img class="nst__img" src="./Examples/starry_night_rhone.jpg" height="300" width="300" type="img/jpg"> <img class="nst__img" src="./Examples/nst_image_a.jpg" height="300" width="300" type="img/jpg">
+
+#### Beautiful Dance by Leonid Afremov
+<img class="nst__img" src="./Examples/GoldenGateBridge.jpg" height="300" width="300" type="img/jpg"> <img class="nst__img" src="./Examples/beautiful_dance.jpg" height="300" width="300" type="img/jpg"> <img class="nst__img" src="./Examples/nst_image_b.jpg" height="300" width="300" type="img/jpg">
+
+#### Self Portrait of Vincent Van Gogh
+<img class="nst__img" src="./Examples/GoldenGateBridge.jpg" height="300" width="300" type="img/jpg"> <img class="nst__img" src="./Examples/van_gogh.jpg" height="300" width="300" type="img/jpg"> <img class="nst__img" src="./Examples/nst_image_c.jpg" height="300" width="300" type="img/jpg">
