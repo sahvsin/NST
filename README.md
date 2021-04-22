@@ -1,5 +1,7 @@
-# NST
+# Neural Style Transfer
 My implementation of Neural Style Transfer (Gatys et al.) using TensorFlow and GPU Acceleration.
+
+<img id="nst_gif" class="proj_gif" src="https://sahilvsingh.netlify.app/GIFs/NST.gif" type="img/gif">
 
 Computes an image using the content of one image and the style of another based on reaseach conducted by [Gatys et al.](https://arxiv.org/abs/1508.06576).
 
