@@ -35,3 +35,8 @@ It's important to note that results can vary wildly based on a lot of configurab
 
 #### Self Portrait of Vincent Van Gogh
 <img class="nst__img" src="./Examples/GoldenGateBridge.jpg" height="300" width="300" type="img/jpg"> <img class="nst__img" src="./Examples/van_gogh.jpg" height="300" width="300" type="img/jpg"> <img class="nst__img" src="./Examples/nst_image_c.jpg" height="300" width="300" type="img/jpg">
+
+<br><br>
+## Credits
+
+Please make sure to check out the CREDITS.txt file.  I couldn't have done this project without resources/papers provided by those credited.
